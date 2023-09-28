@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     position: fixed;
-    /* transform: translate(-50%, -50%) scale(1); */
     width: 170px;
     height: 311px;
     z-index: 999;
@@ -10,8 +9,8 @@
     padding-left: 16px;
 
     top: 0;
-    left: 0;
-    transform: translateX(100%);
+    right: 0;
+    transform: translateX(188%);
     transition: transform 250ms ease-in-out;
 
     background: var(--Button-green, #BBF330);
