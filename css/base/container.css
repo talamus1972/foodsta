@@ -19,7 +19,7 @@
 
 @media screen and (min-width: 1158px) {
   .page-container {
-    /* max-width: 1300px; */
+    max-width: 1280px;
     padding-left: 16px;
     padding-right: 16px;
     margin-left: auto;
