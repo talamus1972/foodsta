@@ -317,6 +317,33 @@
 
   <!-- / MODAL WINDOW -->
   <script src="./js/modal.js"></script>
+
+  <!-- MOBILE MENU======================================== -->
+
+  <div class="menu-container js-menu-container" id="mobile-menu">
+    <button class="menu-toggle js-close-menu" type="button" aria-label="menu closed-button">
+      <svg class="icon-close-black" width="24" height="24">
+        <use href="./images/icons.svg#icon-close-black"></use>
+      </svg>
+    </button>
+
+    <nav class="menu-nav">
+      <ul class="menu-ul">
+        <li>
+          <a class="menu-link-home" href="./index.html">Home</a>
+        </li>
+        <li><a class="menu-link" href="">About</a></li>
+        <li><a class="menu-link" href="">Service</a></li>
+        <li><a class="menu-link" href="">Menu</a></li>
+        <li><a class="menu-link" href="">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"></script>
+  <script defer src="js/mobile-menu.js"></script>
 </body>
 
 </html>
