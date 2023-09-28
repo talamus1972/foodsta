@@ -70,6 +70,7 @@
 
 @media screen and (min-width: 768px) {
   .header-nav {
+    width: 81%;
     margin-right: 30px;
   }
 
@@ -89,4 +90,12 @@
   .page-header .menu-toggle {
     display: none;
   }
+}
+
+@media screen and (min-width: 1280px) {
+  .header-nav {
+    width: 89%;
+
+  }
+
 }
