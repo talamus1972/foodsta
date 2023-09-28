@@ -1,6 +1,6 @@
 /* Контейнер для центрування контенту (можна реалізовувати як на секцію, так і на div контейнер)*/
 .page-container {
-  max-width: 320px;
+  /* max-width: 320px; */
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -8,8 +8,8 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
+  .page-container {
+    /* max-width: 768px; */
     padding-left: 32px;
     padding-right: 32px;
     margin-left: auto;
@@ -19,7 +19,7 @@
 
 @media screen and (min-width: 1158px) {
   .page-container {
-    max-width: 1300px;
+    /* max-width: 1300px; */
     padding-left: 16px;
     padding-right: 16px;
     margin-left: auto;
